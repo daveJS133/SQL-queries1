@@ -1,0 +1,18 @@
+1. SELECT * FROM movies;
+2. SELECT name FROM people;
+3. SELECT name FROM people WHERE name = 'Dave';
+4. DELETE from movies where name = 'Batman Begins';
+5. INSERT INTO people (name) VALUES ('Rick');
+6. DELETE from people where name = 'Craig Morton';
+7. UPDATE people SET name = 'Andy Guppie' WHERE name = 'Andrew Guppie';
+8. INSERT INTO movies (title, year, show_time) VALUES ('Guardians Of The Galaxy 2', 2016, '21:50');
+9. UPDATE movies SET show_time = '12:10 - 21:30' WHERE name = 'Guardians Of The Galaxy'
+
+
+--------------------------------------------------
+DELETE FROM people WHERE ------ IN -----( range1,2) or 
+
+DELETE  from people IN (SELECT query)
+
+
+
